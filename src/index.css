@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
+    
+    --primary: 0 0% 0%;
+    --primary-foreground: 0 0% 100%;
+    
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 0%;
+    
+    --radius: 0;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Courier New', Courier, monospace;
+  }
+}
+
+/* ---------------------------------------------
+   Mobile Optimierungen für ProjectDisplay
+   --------------------------------------------- */
+
+@media (max-width: 768px) {
+  .project-display-mobile {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .project-display-mobile img {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .project-display-mobile .flex {
+    flex-direction: column !important;
+    gap: 0.75rem !important;
+  }
+
+  .project-display-mobile h2 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .project-display-mobile .space-y-8 > :not([hidden]) ~ :not([hidden]) {
+    margin-top: 1rem !important;
+  }
+}
+
+/* ---------------------------------------------
+   Mobile Optimierungen für News-Seite
+   --------------------------------------------- */
+
+@media (max-width: 768px) {
+  .news-page-mobile {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .news-page-mobile main {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    padding-top: 6rem !important;
+  }
+
+  .news-page-mobile img {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 1rem !important;
+  }
+
+  /* Schrift auf der News-Seite exakt wie auf anderen Seiten */
+  .news-page-mobile p,
+  .news-page-mobile div,
+  .news-page-mobile span {
+    font-size: 0.75rem !important; /* entspricht "text-tiny" */
+    line-height: 1.6 !important;   /* passend zu den anderen Seiten */
+    word-break: break-word !important;
+  }
+}

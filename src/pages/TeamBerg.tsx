@@ -13,6 +13,48 @@ import House9 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2026-house-pa
 import House10 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2026-house-paintings-10.jpg";
 import House11 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2026-house-paintings-11.jpg";
 
+import HouseVideo1 from "@/assets/Video1.mp4";
+import HouseVideo2 from "@/assets/Video2.mp4";
+import HouseVideo3 from "@/assets/Video3.mp4";
+import HouseVideo4 from "@/assets/Video4.mp4";
+import HouseVideo5 from "@/assets/Video5.mp4";
+import HouseVideo6 from "@/assets/Video6.mp4";
+import HouseVideo7 from "@/assets/Video7.mp4";
+import HouseVideo8 from "@/assets/Video8.mp4";
+import HouseVideo9 from "@/assets/Video9.mp4";
+
+import HouseVideoPoster1 from "@/assets/VideoPoster1.jpg";
+import HouseVideoPoster2 from "@/assets/VideoPoster2.jpg";
+import HouseVideoPoster3 from "@/assets/VideoPoster3.jpg";
+import HouseVideoPoster4 from "@/assets/VideoPoster4.jpg";
+import HouseVideoPoster5 from "@/assets/VideoPoster5.jpg";
+import HouseVideoPoster6 from "@/assets/VideoPoster6.jpg";
+import HouseVideoPoster7 from "@/assets/VideoPoster7.jpg";
+import HouseVideoPoster8 from "@/assets/VideoPoster8.jpg";
+import HouseVideoPoster9 from "@/assets/VideoPoster9.jpg";
+
+import House2_1 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2026-2-house-paintings-1.jpg";
+import House2_2 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2026-2-house-paintings-2.jpg";
+import House2_3 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2026-2-house-paintings-3.jpg";
+import House2_4 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2026-2-house-paintings-4.jpg";
+import House2_5 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2026-2-house-paintings-5.jpg";
+import House2_6 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2026-2-house-paintings-6.jpg";
+import House2_7 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2026-2-house-paintings-7.jpg";
+import House2_8 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2026-2-house-paintings-8.jpg";
+import House2_9 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2026-2-house-paintings-9.jpg";
+import House2_10 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2026-2-house-paintings-10.jpg";
+import House2_11 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2026-2-house-paintings-11.jpg";
+import House2_12 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2026-2-house-paintings-12.jpg";
+import House2_13 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2026-2-house-paintings-13.jpg";
+import House2_14 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2026-2-house-paintings-14.jpg";
+import House2_15 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2026-2-house-paintings-15.jpg";
+import House2_16 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2026-2-house-paintings-16.jpg";
+import House2_17 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2026-2-house-paintings-17.jpg";
+import House2_18 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2026-2-house-paintings-18.jpg";
+import House2_19 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2026-2-house-paintings-19.jpg";
+import House2_20 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2026-2-house-paintings-20.jpg";
+import House2_21 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2026-2-house-paintings-21.jpg";
+
 import galut1 from "@/assets/tarane-bazrafshan-max-broda-team-berg-galut-exile-art-week-2025-galut-1.jpg";
 import galut2 from "@/assets/tarane-bazrafshan-max-broda-team-berg-galut-exile-art-week-2025-galut-2.jpg";
 import galut3 from "@/assets/tarane-bazrafshan-max-broda-team-berg-galut-exile-art-week-2025-galut-3.jpg";
@@ -36,15 +78,54 @@ import TeamBerg9 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2025-TeamB
 const TeamBerg = () => {
   const projects = [
     {
-      title: "House Paintings, Plot Berlin, 2026",
+      title: "House Paintings, Plot Berlin, 2025/2026",
       images: [
-         [House1],
-  [House2, House3],
-  [House4, House5],
-  [House6, House7],
-  [House8, House9],
-  [House10, House11]
+        [House1],
+        [House2, House3],
+        [House4, House5],
+        [House6, House7],
+        [House8, House9],
+        [House10, House11],
+
+        [
+          {
+            type: "video",
+            src: HouseVideo1,
+            poster: HouseVideoPoster1
+          }
+        ],
+        [
+          {
+            type: "video",
+            src: HouseVideo4,
+            poster: HouseVideoPoster4
+          }
+        ],
+        [
+          {
+            type: "video",
+            src: HouseVideo7,
+            poster: HouseVideoPoster7
+          }
+        ],
+
+        [House2_1, House2_2],
+        [House2_3],
+        [House2_4, House2_5],
+        [House2_6],
+        [House2_7, House2_8],
+        [House2_9, House2_10],
+        [House2_11, House2_12],
+        [House2_13, House2_14],
+        [House2_15, House2_16],
+        [House2_17, House2_18],
+        [House2_19, House2_20],
+        [House2_21]
       ],
+
+
+
+
       description: (
         <>
           <p>Invited by Achinoam Alon</p>

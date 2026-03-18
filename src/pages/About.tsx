@@ -10,18 +10,20 @@ const About = () => {
           <p className="font-courier text-tiny text-foreground leading-relaxed mb-6">
             Tarane Bazrafshan and Max Broda are an artist duo currently living and working in Berlin. Their practice combines sculpture, photography and performance within installation-based works.
           </p>
+
+          <p className="font-courier text-tiny text-foreground leading-relaxed mb-6">
+            Their work has been presented, among others, at Theater Erfurt, Museum Essl in Klosterneuburg, Schillermuseum Weimar, Academy Positions Berlin, Kunsthaus Erfurt, Nova Artspace Weimar, Plot Berlin and Eiermannbau Apolda.
+          </p>
         </div>
 
         <div className="mb-32 flex flex-col items-start gap-4">
-          {/* E-Mail Link */}
           <a 
-            href="mailto:contact@tarane-max.art" 
+            href="mailto:office2222@gmx.de" 
             className="font-courier text-tiny text-foreground underline hover:opacity-60 transition-opacity"
           >
-            contact@tarane-max.art
+            office2222@gmx.de
           </a>
 
-          {/* Icon-Link zur neuen Seite */}
           <a 
             href="/instalinks" 
             className="hover:opacity-60 transition-opacity"
@@ -32,7 +34,7 @@ const About = () => {
 
         <div className="mt-auto pt-20">
           <p className="font-courier text-micro text-foreground">
-            © Tarane Bazrafshan & Max Broda, 2025
+            © Tarane Bazrafshan & Max Broda, 2026
           </p>
         </div>
       </main>

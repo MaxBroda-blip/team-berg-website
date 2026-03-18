@@ -1,11 +1,33 @@
 import BackArrow from "@/components/BackArrow";
 import NewsEntry from "@/components/NewsEntry";
-import news1 from "@/assets/news-1.jpg";
-import news2 from "@/assets/news-2.jpg";
-import news3 from "@/assets/news-3.jpg";
+import news1 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2025-TeamBerg-News-1.jpg";
+import news2 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2025-TeamBerg-News-2.jpg";
+import news3 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2025-TeamBerg-News-3.jpg";
+import news4 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2025-TeamBerg-News-4.jpg";
+import news5 from "@/assets/tarane-bazrafshan-max-broda-team-berg-2025-TeamBerg-News-5.jpg";
 
 const News = () => {
   const newsEntries = [
+    {
+      image: news5,
+      caption: `Performing at PLOT Berlin
+31.1.2026, 7pm
+
+Sound by Thomas Mahmoud
+Special thanks to Jens Crull
+
+PLOT Berlin
+Köpenicker Straße 55`
+    },
+    {
+      image: news4,
+      caption: `HOUSE PAINTINGS
+Tarane Bazrafshan & Max Broda
+
+20.12.2025 - 15.2.2026
+PLOT Berlin
+Köpenicker Straße 55`
+    },
     {
       image: news1,
       caption: `‘GALUT/EXILE: Nervous Pathways’ - SHIUR Berlin Pop Up Gallery during Berlin Art Week
@@ -73,3 +95,5 @@ Theater Erfurt
 };
 
 export default News;
+
+
